@@ -130,17 +130,24 @@ const Projects = () => {
 
   const [projects] = useState<Project[]>([
     {
-      id: 0,
-      title: "E-commerce Website",
+      id: 1,
+      title: "E-Commerce Website",
       description:
-        "A complete e-commerce solution with product catalog, cart functionality, payment processing, and order management.",
+        "A fully functional e-commerce platform with product catalog, cart management, and secure payment processing.",
       image:
-        "https://images.pexels.com/photos/5632397/pexels-photo-5632397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       liveLink: "https://rabbit-ecom-r9ur.vercel.app/",
-      technologies: ["Next.js", "MongoDB", "Stripe", "Tailwind CSS", "JWT"],
+      technologies: [
+        "React.js",
+        "Node.js",
+        "Stripe",
+        "MongoDB",
+        "Tailwind CSS",
+        "JWT",
+      ],
     },
     {
-      id: 1,
+      id: 2,
       title: "Netflix Clone",
       description:
         "A full-featured Netflix clone with user authentication, personalized recommendations, and video streaming capabilities.",
@@ -148,16 +155,6 @@ const Projects = () => {
         "https://images.pexels.com/photos/4009409/pexels-photo-4009409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       liveLink: "https://netflix-clone-production-d282.up.railway.app/",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Firebase Auth"],
-    },
-    {
-      id: 2,
-      title: "E-Commerce Website",
-      description:
-        "A fully functional e-commerce platform with product catalog, cart management, and secure payment processing.",
-      image:
-        "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      liveLink: "https://rabbit-ecom-r9ur.vercel.app/",
-      technologies: ["Next.js", "Stripe", "MongoDB", "Tailwind CSS"],
     },
     {
       id: 3,
@@ -186,7 +183,7 @@ const Projects = () => {
         "An interactive 3D animation showcase of an iPhone with smooth transitions and engaging visual effects.",
       image:
         "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      liveLink: "https://iphone-gsap-black.vercel.app/",
+      liveLink: "https://iphone-gsap-ten.vercel.app/",
       technologies: ["Three.js", "GSAP", "React", "Vite"],
     },
   ]);
